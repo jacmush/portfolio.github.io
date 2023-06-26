@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="logo">
+        LOGO
+      </div>
+      <div class="menu">
+        <nav class="nav-list">
+            <a href="#home">Home</a>
+            <a href="#projects">projects</a>
+        </nav>
+      </div>
+    </header>  
+    
+    <section id="home">
+      <div class="home-info">
+        <h2>Привіт!</h2>
+        <span class="home-position">Junior Frontend developer</span>
+        <span class="home-resume">
+          Привіт! Я Яків, молодий та мотивований frontend developer. Маю знання HTML/CSS та елементарну базу JavaScript, а також досвід роботи з технологією Bootstrap. Мені 20 років, і хоча у мене немає професійного досвіду, я готовий взятися за виклики. Мій рівень англійської - Intermediate, здатний розмовляти та писати простими фразами.
+          Я комунікабельний та легко знаходжу спільну мову з колегами. Здатний адаптуватись до різних умов та розтавляти пріоритети. Маю вміння будувати зв'язки з людьми. Мотивований та відповідальний. Я мрію спробувати себе у сфері IT та готовий розвиватись.
+        </span>
+
+        <button>
+          <a href="#projects">Projects</a>
+        </button>
+      </div>
+      <div class="home-img">
+        <img src="./img/avatar.png">
+      </div>
+    </section>
+
+
+    <section id="projects">
+      <h2>My projects</h2>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/travel.png">
+            </div>
+            <div class="project-info">
+              <h2>Travel website</h2>
+              <p>Я створив веб-сайт про подорожі, використовуючи HTML та CSS, відповідно до макету.Подивитись на всі мої проекти можна за посиланням на мій GitHub у моєму профілі Djinni </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/cars.png">
+            </div>
+            <div class="project-info">
+              <h2>Cars</h2>
+              <p>Я створив адаптивний веб-сайт про ремонт машин, використовуючи HTML та CSS. Сайт був розроблений згідно макету, що забезпечило його візуальну відповідність оригінальному дизайну. Я враховував різні екранні розміри та пристрої, щоб забезпечити коректне відображення і зручну навігацію для відвідувачів сайту на різних пристроях, включаючи комп'ютери, планшети та смартфони.Подивитись на всі мої проекти можна за посиланням на мій GitHub у моєму профілі Djinni</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="project-img">
+              <img src="./img/horoscop.png">
+            </div>
+            <div class="project-info">
+              <h2>Horoscop</h2>
+              <p>Я розробив веб-сайт про гороскоп, використовуючи HTML та CSS, відповідно до наданого макету.Подивитись на всі мої проекти можна за посиланням на мій GitHub у моєму профілі Djinni</p>
+            </div>
+          </div>
+        </div>
+      
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  </main>  
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
